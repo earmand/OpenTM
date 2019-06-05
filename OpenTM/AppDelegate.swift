@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //clearFolders.append("csv")
         //clearFolders.append("kml")
         //clearFolders.append("Inbox")
+        // test
+        
         for folderName in clearFolders {
             do {
                 let documentsFolder = try Folder.home.subfolder(named: "Documents")
