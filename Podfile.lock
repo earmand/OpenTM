@@ -1,0 +1,32 @@
+PODS:
+  - AEXML (4.4.0)
+  - Cache (5.2.0)
+  - CorePlot (2.2)
+  - Files (2.2.1)
+  - Imaginary (4.2.0):
+    - Cache (~> 5.0)
+
+DEPENDENCIES:
+  - AEXML
+  - CorePlot (~> 2.2)
+  - Files (~> 2.2.1)
+  - Imaginary
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AEXML
+    - Cache
+    - CorePlot
+    - Files
+    - Imaginary
+
+SPEC CHECKSUMS:
+  AEXML: 16fb739dfb3809e91ebf9e9dc391482c3a6aaebf
+  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
+  CorePlot: cbe0c6e14220705e32e06a89c7d6a5a908b7d7d8
+  Files: 18a88ede4f1e339a73adaca7272af15fa32ba69f
+  Imaginary: dae33d06dbc2ada22f98afef5eb45cc061311a2c
+
+PODFILE CHECKSUM: 0bfb36f64cf8d390f477dbf27133a399b59efe8f
+
+COCOAPODS: 1.6.0

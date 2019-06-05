@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Map Settings</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Map Type</string>
+			<key>Key</key>
+			<string>baseMapType</string>
+			<key>DefaultValue</key>
+			<integer>6</integer>
+			<key>Titles</key>
+			<array>
+                <string>Apple Standard</string>
+                <string>Apple Satellite</string>
+                <string>Apple Hybrid</string>
+                <string>Apple Satellite Flyover</string>
+                <string>Apple Hybrid Flowover</string>
+                <string>Apple Muted Standard</string>
+                <string>Open Street Maps</string>
+                <string>Open Street Maps BW</string>
+                <string>Open Street Maps Grey</string>
+                <string>Google Standard</string>
+                <string>Google Aerial</string>
+                <string>Google Hybrid</string>
+                <string>Google Terrain</string>
+                <string>Google Road</string>
+                <string>WMF Hike and Bike</string>
+                <string>Thunder Cycle</string>
+                <string>Thunder Transport</string>
+                <string>Thunder Trans Dark</string>
+                <string>Thunder Landscape</string>
+                <string>Thunder Outdoors</string>
+                <string>Thunder Pioneer</string>
+                <string>Thunder Mobile</string>
+                <string>Thunder Neighborhood</string>
+                <string>Stamen Terrain</string>
+                <string>Waymark Hike</string>
+                <string>Waymark Cycle</string>
+                <string>Sectional</string>
+                <string>World Aeronautical</string>
+                <string>IFR Enroute Low</string>
+                <string>IFR Enroute High</string>
+                <string>IFR Area</string>
+                <string>Helicopter</string>
+                <string>Helicopter Grid</string>
+			</array>
+			<key>Values</key>
+			<array>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+                <integer>7</integer>
+                <integer>8</integer>
+                <integer>9</integer>
+                <integer>10</integer>
+                <integer>11</integer>
+                <integer>12</integer>
+                <integer>13</integer>
+                <integer>14</integer>
+                <integer>15</integer>
+                <integer>16</integer>
+                <integer>17</integer>
+                <integer>18</integer>
+                <integer>19</integer>
+                <integer>20</integer>
+                <integer>21</integer>
+                <integer>22</integer>
+                <integer>23</integer>
+                <integer>24</integer>
+                <integer>25</integer>
+                <integer>26</integer>
+                <integer>27</integer>
+                <integer>28</integer>
+                <integer>29</integer>
+                <integer>30</integer>
+                <integer>31</integer>
+                <integer>32</integer>
+			</array>
+		</dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Use Cached Maps</string>
+            <key>Key</key>
+            <string>mapviewUseCachedMaps</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Display User Location</string>
+            <key>Key</key>
+            <string>mapviewDisplayUserLocation</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        
+        
+        <dict>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+            <key>Title</key>
+            <string>Apple Map Options</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Show Traffic</string>
+            <key>Key</key>
+            <string>mapviewAppleShowTraffic</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Show Buildings</string>
+            <key>Key</key>
+            <string>mapviewAppleShowBuildings</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Show Points Of Interest</string>
+            <key>Key</key>
+            <string>mapviewAppleShowPointsOfInterest</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Show Compass</string>
+            <key>Key</key>
+            <string>mapviewAppleShowCompass</string>
+            <key>DefaultValue</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Show Scale</string>
+            <key>Key</key>
+            <string>mapviewAppleShowScale</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        <dict>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+            <key>Title</key>
+            <string>Map Options</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Display Mercator Coordinates</string>
+            <key>Key</key>
+            <string>mapviewDisplayMercatorCoordinates</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        
+        
+        <dict>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+            <key>Title</key>
+            <string>Weather</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Display Weather</string>
+            <key>Key</key>
+            <string>mapviewDisplayWeather</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        
+        <dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Weather Overlay</string>
+            <key>Key</key>
+            <string>weatherType</string>
+            <key>DefaultValue</key>
+            <integer>0</integer>
+            <key>Titles</key>
+            <array>
+                <string>None</string>
+                <string>NEXRAD</string>
+                <string>Echo Tops</string>
+                <string>MRMS Hybrid Scan</string>
+                <string>1 Hour Precip</string>
+                <string>24 Hour Precip</string>
+                <string>48 Hour Precip</string>
+                <string>72 Hour Precip</string>
+                <string>Goes IR 4km</string>
+                <string>Goes Water Vapor 4km</string>
+                <string>Goes Visible 1km</string>
+                <string>Air Temperature</string>
+                <string>Wind</string>
+                <string>Sea Level Pressure</string>
+                <string>Precipitation</string>
+            </array>
+            <key>Values</key>
+            <array>
+                <string>None</string>
+                <string>NEXRAD</string>
+                <string>Echo Tops</string>
+                <string>MRMS Hybrid Scan</string>
+                <string>1 Hour Precip</string>
+                <string>24 Hour Precip</string>
+                <string>48 Hour Precip</string>
+                <string>72 Hour Precip</string>
+                <string>Goes IR 4km</string>
+                <string>Goes Water Vapor 4km</string>
+                <string>Goes Visible 1km</string>
+                <string>Air Temperature</string>
+                <string>Wind</string>
+                <string>Sea Level Pressure</string>
+                <string>Precipitation</string>
+            </array>
+        </dict>
+        
+        <dict>
+            <key>Type</key>
+            <string>PSSliderSpecifier</string>
+            <key>Title</key>
+            <string>Weather Alpha</string>
+            <key>Key</key>
+            <string>mapviewWeatherAlpha</string>
+            <key>DefaultValue</key>
+            <real>0.7</real>
+            
+            <key>MinimumValue</key>
+            <real>0.0</real>
+            <key>MaximumValue</key>
+            <real>1.0</real>
+            <key>MinimumValueImage</key>
+            <string></string>
+            <key>MaximumValueImage</key>
+            <string></string>
+            
+            <key>ValueIncrement</key>
+            <real>0.05</real>
+            <key>MaximumFractionDigits</key>
+            <integer>2</integer>
+
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSTextFieldSpecifier</string>
+            <key>Title</key>
+            <string>Weather Alpha (0.0 - 1.0)XX</string>
+            <key>Key</key>
+            <string>mapviewWeatherAlphaOld</string>
+            <key>DefaultValue</key>
+            <string>0.5</string>
+            <key>IsSecure</key>
+            <false/>
+            <key>KeyboardType</key>
+            <string>NumbersAndPunctuation</string>
+            <key>AutocapitalizationType</key>
+            <string>None</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+        </dict>
+
+        
+        
+        
+        <dict>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+            <key>Title</key>
+            <string>Terrain Options</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Display Terrain</string>
+            <key>Key</key>
+            <string>mapviewDisplayTerrain</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+
+        <dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Base Altitude Reference</string>
+            <key>Key</key>
+            <string>mapviewTerrainBaseAltitudeReference</string>
+            <key>DefaultValue</key>
+            <integer>0</integer>
+            <key>Titles</key>
+            <array>
+                <string>User Specified</string>
+                <string>User Location</string>
+                <string>Selected Vehicle</string>
+                <string>Selected Coordinate</string>
+            </array>
+            <key>Values</key>
+            <array>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+            </array>
+        </dict>
+        
+        
+        <dict>
+            <key>Type</key>
+            <string>PSSliderSpecifier</string>
+            <key>Title</key>
+            <string>Base Altitude (Feet)</string>
+            <key>Key</key>
+            <string>mapviewTerrainBaseAltitude</string>
+            <key>DefaultValue</key>
+            <real>1</real>
+            
+            <key>MinimumValue</key>
+            <real>0.0</real>
+            <key>MaximumValue</key>
+            <real>1000.0</real>
+            <key>MinimumValueImage</key>
+            <string></string>
+            <key>MaximumValueImage</key>
+            <string></string>
+            <key>ValueIncrement</key>
+            <real>1.0</real>
+            <key>MaximumFractionDigits</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSSliderSpecifier</string>
+            <key>Title</key>
+            <string>Delta Altitude (Feet)</string>
+            <key>Key</key>
+            <string>mapviewTerrainDeltaAltitude</string>
+            <key>DefaultValue</key>
+            <real>1000</real>
+            
+            <key>MinimumValue</key>
+            <real>10.0</real>
+            <key>MaximumValue</key>
+            <real>10000.0</real>
+            <key>MinimumValueImage</key>
+            <string></string>
+            <key>MaximumValueImage</key>
+            <string></string>
+            <key>ValueIncrement</key>
+            <real>10.0</real>
+            <key>MaximumFractionDigits</key>
+            <integer>0</integer>
+        </dict>
+
+        <dict>
+            <key>Type</key>
+            <string>PSSliderSpecifier</string>
+            <key>Title</key>
+            <string>Number of Colors</string>
+            <key>Key</key>
+            <string>mapviewTerrainNumberColors</string>
+            <key>DefaultValue</key>
+            <real>10</real>
+            
+            <key>MinimumValue</key>
+            <real>4.0</real>
+            <key>MaximumValue</key>
+            <real>256.0</real>
+            <key>MinimumValueImage</key>
+            <string></string>
+            <key>MaximumValueImage</key>
+            <string></string>
+            <key>ValueIncrement</key>
+            <real>1.0</real>
+            <key>MaximumFractionDigits</key>
+            <integer>0</integer>
+        </dict>
+        
+        <dict>
+            <key>Type</key>
+            <string>PSSliderSpecifier</string>
+            <key>Title</key>
+            <string>Color Alpha (0.0 - 1.0)</string>
+            <key>Key</key>
+            <string>mapviewTerrainAlpha</string>
+            <key>DefaultValue</key>
+            <real>0.8</real>
+            
+            <key>MinimumValue</key>
+            <real>0.0</real>
+            <key>MaximumValue</key>
+            <real>1.0</real>
+            <key>MinimumValueImage</key>
+            <string></string>
+            <key>MaximumValueImage</key>
+            <string></string>
+            <key>ValueIncrement</key>
+            <real>0.05</real>
+            <key>MaximumFractionDigits</key>
+            <integer>2</integer>
+        </dict>
+        
+        <dict>
+            <key>Type</key>
+            <string>PSSliderSpecifier</string>
+            <key>Title</key>
+            <string>Altitude Refresh Threshold (feet)</string>
+            <key>Key</key>
+            <string>mapviewTerrainAltitudeChangeThreshold</string>
+            <key>DefaultValue</key>
+            <real>10</real>
+            
+            <key>MinimumValue</key>
+            <real>1.0</real>
+            <key>MaximumValue</key>
+            <real>500.0</real>
+            <key>MinimumValueImage</key>
+            <string></string>
+            <key>MaximumValueImage</key>
+            <string></string>
+            <key>ValueIncrement</key>
+            <real>1.0</real>
+            <key>MaximumFractionDigits</key>
+            <integer>0</integer>
+        </dict>
+        
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Display Mercator Grid</string>
+            <key>Key</key>
+            <string>terrainDisplayMercatorGrid</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Display Mercator Label</string>
+            <key>Key</key>
+            <string>terrainDisplayMercatorLabel</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Display Location Label</string>
+            <key>Key</key>
+            <string>terrainDisplayLocationLabel</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Display Grid Origin Label</string>
+            <key>Key</key>
+            <string>terrainDisplayMapRectLabel</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Display Grid Center Label</string>
+            <key>Key</key>
+            <string>terrainDisplayMapPointLabel</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        
+        
+        
+        
+        
+        <dict>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+            <key>Title</key>
+            <string>Aircraft</string>
+        </dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display Aircraft</string>
+			<key>Key</key>
+			<string>mapviewDisplayAircraft</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display Surveillance Range Rings</string>
+			<key>Key</key>
+			<string>mapviewDisplayRangeRings</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display Surveillance Coverage Rings</string>
+			<key>Key</key>
+			<string>mapviewDisplaySurveillanceCoverageRings</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display Surveillance Coverage Map </string>
+			<key>Key</key>
+			<string>mapviewDisplaySurveillanceCoverageMap</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display Contrail</string>
+			<key>Key</key>
+			<string>mapviewDisplayContrail</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display Trajectories</string>
+			<key>Key</key>
+			<string>mapviewdisplayTrajectory</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Extend Vehicle Age (Color) Duration</string>
+			<key>Key</key>
+			<string>mapviewVehicleAgeLong</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Map Update Rate(Sec)</string>
+			<key>Key</key>
+			<string>mapviewUpdateRate</string>
+			<key>DefaultValue</key>
+			<string>2.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+        
+        
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>ATC Restrictions</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Special Use Airspace</string>
+			<key>Key</key>
+			<string>mapviewDisplaySUA</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Temporary Flight Restrictions</string>
+			<key>Key</key>
+			<string>mapviewDisplayTFR</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Airports</string>
+			<key>Key</key>
+			<string>mapviewDisplayAirports</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Heliports</string>
+			<key>Key</key>
+			<string>mapviewDisplayHeliports</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Emergencies</string>
+			<key>Key</key>
+			<string>mapviewDisplayEmergencies</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Fires</string>
+			<key>Key</key>
+			<string>mapviewDisplayFires</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>National Parks</string>
+			<key>Key</key>
+			<string>mapviewDisplayNationalParks</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+        
+        
+        <dict>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+            <key>Title</key>
+            <string>Local Airspaces</string>
+        </dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Local TFRs</string>
+			<key>Key</key>
+			<string>mapviewDisplayLocalTFR</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>User Defined Airspace</string>
+			<key>Key</key>
+			<string>mapviewDisplayUserOverlays</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+        
+        
+        
+        
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Conflict Detection </string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Probe AC to User Location Conflicts</string>
+			<key>Key</key>
+			<string>mapviewConflictProbeACtoUserLocation</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Probe AC to Trajectory Conflicts</string>
+			<key>Key</key>
+			<string>mapviewConflictProbeACtoTrajectory</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Probe AC to AC Conflicts</string>
+			<key>Key</key>
+			<string>mapviewConflictProbeACtoAC</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Probe AC to SUA Conflicts</string>
+			<key>Key</key>
+			<string>mapviewConflictProbeACtoSUA</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Probe AC to TFR Conflicts</string>
+			<key>Key</key>
+			<string>mapviewConflictProbeACtoTFR</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Probe AC to Airport Conflicts</string>
+			<key>Key</key>
+			<string>mapviewConflictProbeACtoAirport</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Probe AC to Emergencies Conflicts</string>
+			<key>Key</key>
+			<string>mapviewConflictProbeACtoEmergencies</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Probe Local TFR</string>
+			<key>Key</key>
+			<string>mapviewConflictProbeLocalTFR</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Probe AC to User Defined Conflicts</string>
+			<key>Key</key>
+			<string>mapviewConflictProbeACtoUserOverlays</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+        
+        
+        <dict>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+            <key>Title</key>
+            <string>Aircraft Notifications</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Aircraft Notifications</string>
+            <key>Key</key>
+            <string>notifyAircraft</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Aircraft Notification Voice</string>
+            <key>Key</key>
+            <string>mapviewAircraftNotificationVoice</string>
+            <key>DefaultValue</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSTextFieldSpecifier</string>
+            <key>Title</key>
+            <string>Max Distance (miles)</string>
+            <key>Key</key>
+            <string>mapviewAircraftNotificationMaxDistance</string>
+            <key>DefaultValue</key>
+            <string>5.0</string>
+            <key>IsSecure</key>
+            <false/>
+            <key>KeyboardType</key>
+            <string>NumbersAndPunctuation</string>
+            <key>AutocapitalizationType</key>
+            <string>None</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSTextFieldSpecifier</string>
+            <key>Title</key>
+            <string>Max Altitude (feet)</string>
+            <key>Key</key>
+            <string>mapviewAircraftNotificationMaxAltitude</string>
+            <key>DefaultValue</key>
+            <string>50000</string>
+            <key>IsSecure</key>
+            <false/>
+            <key>KeyboardType</key>
+            <string>NumbersAndPunctuation</string>
+            <key>AutocapitalizationType</key>
+            <string>None</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSTextFieldSpecifier</string>
+            <key>Title</key>
+            <string>Max Time (minutes)</string>
+            <key>Key</key>
+            <string>mapviewAircraftNotificationMaxTime</string>
+            <key>DefaultValue</key>
+            <string>5.0</string>
+            <key>IsSecure</key>
+            <false/>
+            <key>KeyboardType</key>
+            <string>NumbersAndPunctuation</string>
+            <key>AutocapitalizationType</key>
+            <string>None</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+        </dict>
+        
+        
+        
+
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Aircraft Data Filtering</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>View Radial Distance (miles)</string>
+			<key>Key</key>
+			<string>mapviewMaxAnnotationsDistance</string>
+			<key>DefaultValue</key>
+			<string>100</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Aircraft Max Altitude(Feet)</string>
+			<key>Key</key>
+			<string>mapviewMinAnnotationAltitude</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Aircraft Max Altitude(Feet)</string>
+			<key>Key</key>
+			<string>mapviewMaxAnnotationAltitude</string>
+			<key>DefaultValue</key>
+			<string>50000</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Aircraft Update Frequency (Sec)</string>
+			<key>Key</key>
+			<string>mapviewAircraftUpdateFrequency</string>
+			<key>DefaultValue</key>
+			<string>2.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display Vehicle (UAV)</string>
+			<key>Key</key>
+			<string>mapviewDisplayVehicle</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display ADSB</string>
+			<key>Key</key>
+			<string>mapviewDisplayADSB</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display MLAT</string>
+			<key>Key</key>
+			<string>mapviewDisplayMLAT</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display RADAR</string>
+			<key>Key</key>
+			<string>mapviewDisplayRADAR</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Display Estimated</string>
+			<key>Key</key>
+			<string>mapviewDisplayEstimated</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

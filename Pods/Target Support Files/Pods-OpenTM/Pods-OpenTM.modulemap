@@ -1,0 +1,6 @@
+framework module Pods_OpenTM {
+  umbrella header "Pods-OpenTM-umbrella.h"
+
+  export *
+  module * { export * }
+}
