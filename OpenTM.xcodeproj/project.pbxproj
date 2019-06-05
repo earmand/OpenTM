@@ -32,14 +32,14 @@
 		9C378786219109500019C098 /* CLLocation+DCE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C378785219109500019C098 /* CLLocation+DCE.swift */; };
 		9C37878821923CA70019C098 /* CloudServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37878721923CA70019C098 /* CloudServices.swift */; };
 		9C5910882284522300AC88E6 /* KML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5910872284522300AC88E6 /* KML.swift */; };
-		9C90F7BD21B55F9600CE53E4 /* LidarTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90F7BC21B55F9500CE53E4 /* LidarTileOverlay.swift */; };
+		9C69ED3822A809B400C86E67 /* Elevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69ED3722A809B300C86E67 /* Elevation.swift */; };
+		9C69ED3A22A809CF00C86E67 /* LidarTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69ED3922A809CF00C86E67 /* LidarTileOverlay.swift */; };
 		9C9C593221A058D100D69B45 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C593121A058D100D69B45 /* SettingsViewController.swift */; };
 		9C9C593421A0621B00D69B45 /* NSDictionary+DCE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C593321A0621B00D69B45 /* NSDictionary+DCE.swift */; };
 		9C9C593821A0736300D69B45 /* NSBundle+DCE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C593721A0736300D69B45 /* NSBundle+DCE.swift */; };
 		9C9FCD26227B66FD00129539 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FCD25227B66FD00129539 /* CSV.swift */; };
 		9C9FCD2A227B710000129539 /* Litchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FCD29227B710000129539 /* Litchi.swift */; };
 		9CD6323B21B6DD2500809F92 /* DEColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6323A21B6DD2400809F92 /* DEColor.swift */; };
-		9CFD4DA32257C20B005E6185 /* Elevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD4DA22257C20B005E6185 /* Elevation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,7 +95,8 @@
 		9C378785219109500019C098 /* CLLocation+DCE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CLLocation+DCE.swift"; path = "../../#Classes/CLLocation+DCE.swift"; sourceTree = "<group>"; };
 		9C37878721923CA70019C098 /* CloudServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudServices.swift; path = "../../#Classes/CloudServices.swift"; sourceTree = "<group>"; };
 		9C5910872284522300AC88E6 /* KML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KML.swift; path = "../../#Classes/KML.swift"; sourceTree = "<group>"; };
-		9C90F7BC21B55F9500CE53E4 /* LidarTileOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LidarTileOverlay.swift; sourceTree = "<group>"; };
+		9C69ED3722A809B300C86E67 /* Elevation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Elevation.swift; path = "../../#Classes/Elevation.swift"; sourceTree = "<group>"; };
+		9C69ED3922A809CF00C86E67 /* LidarTileOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LidarTileOverlay.swift; path = "../../#Classes/LidarTileOverlay.swift"; sourceTree = "<group>"; };
 		9C9C593121A058D100D69B45 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9C9C593321A0621B00D69B45 /* NSDictionary+DCE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSDictionary+DCE.swift"; path = "../../#Classes/NSDictionary+DCE.swift"; sourceTree = "<group>"; };
 		9C9C593721A0736300D69B45 /* NSBundle+DCE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSBundle+DCE.swift"; path = "../../#Classes/NSBundle+DCE.swift"; sourceTree = "<group>"; };
@@ -104,7 +105,6 @@
 		9CD6323821B6AB8B00809F92 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		9CD6323A21B6DD2400809F92 /* DEColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DEColor.swift; path = "../../#Classes/DEColor.swift"; sourceTree = "<group>"; };
 		9CE12C85759E980731B9A120 /* Pods-OpenTMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTMTests.release.xcconfig"; path = "Target Support Files/Pods-OpenTMTests/Pods-OpenTMTests.release.xcconfig"; sourceTree = "<group>"; };
-		9CFD4DA22257C20B005E6185 /* Elevation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevation.swift; sourceTree = "<group>"; };
 		CAC90526D81586A04FE284DF /* Pods-OpenTM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTM.release.xcconfig"; path = "Target Support Files/Pods-OpenTM/Pods-OpenTM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,12 +152,12 @@
 		9C378739219080250019C098 = {
 			isa = PBXGroup;
 			children = (
+				9C69ED3922A809CF00C86E67 /* LidarTileOverlay.swift */,
+				9C69ED3722A809B300C86E67 /* Elevation.swift */,
 				9C5910872284522300AC88E6 /* KML.swift */,
 				9C9FCD29227B710000129539 /* Litchi.swift */,
 				9C9FCD25227B66FD00129539 /* CSV.swift */,
 				9C9C593721A0736300D69B45 /* NSBundle+DCE.swift */,
-				9CFD4DA22257C20B005E6185 /* Elevation.swift */,
-				9C90F7BC21B55F9500CE53E4 /* LidarTileOverlay.swift */,
 				9C9C593321A0621B00D69B45 /* NSDictionary+DCE.swift */,
 				9C37877D2190DF380019C098 /* Foundation+DCE.swift */,
 				9C3556242193ACD9001B1E57 /* Locations.swift */,
@@ -486,14 +486,14 @@
 				9C37877E2190DF380019C098 /* Foundation+DCE.swift in Sources */,
 				9C3556252193ACDA001B1E57 /* Locations.swift in Sources */,
 				9C9FCD2A227B710000129539 /* Litchi.swift in Sources */,
-				9CFD4DA32257C20B005E6185 /* Elevation.swift in Sources */,
 				9C5910882284522300AC88E6 /* KML.swift in Sources */,
 				9C9C593221A058D100D69B45 /* SettingsViewController.swift in Sources */,
 				9C378784219109290019C098 /* MKPolygon+MKShapes.swift in Sources */,
-				9C90F7BD21B55F9600CE53E4 /* LidarTileOverlay.swift in Sources */,
 				9C3787802191066A0019C098 /* SAAManager.swift in Sources */,
+				9C69ED3822A809B400C86E67 /* Elevation.swift in Sources */,
 				9C3556272193B16E001B1E57 /* DEImage.swift in Sources */,
 				9C378746219080250019C098 /* AppDelegate.swift in Sources */,
+				9C69ED3A22A809CF00C86E67 /* LidarTileOverlay.swift in Sources */,
 				9C378748219080250019C098 /* UASMapView.swift in Sources */,
 				9C378783219109290019C098 /* MKPolyline+MKShapes.swift in Sources */,
 				9CD6323B21B6DD2500809F92 /* DEColor.swift in Sources */,
